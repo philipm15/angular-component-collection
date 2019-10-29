@@ -1,0 +1,11 @@
+@import '~@angular/material/theming';
+
+$app-accent: mat-palette($mat-light-blue);
+$app-warn: mat-palette($mat-pink);
+
+$white: #fff;
+$black: #000;
+$background: #1b1b38;
+$primary: #323259;
+$accent: mat-color($app-accent);
+$warn: mat-color($app-warn);

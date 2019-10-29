@@ -1,0 +1,24 @@
+@import 'src/scss/_variables';
+
+host {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  z-index: auto;
+  order: 0;
+}
+
+.sidebar {
+  width: 16rem;
+  height: 100vh;
+  background-color: $primary;
+}
+
+.main-container {
+  height: inherit;
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  overflow-y: auto;
+}
